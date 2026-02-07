@@ -117,12 +117,12 @@ const Careers = () => {
               <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent" />
               
               <CardHeader className="relative z-10 text-center pb-4">
-                <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-[#0A66C2]/10 mb-4 mx-auto">
-                  <Users className="h-8 w-8 text-[#0A66C2]" />
+                <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-primary/10 mb-4 mx-auto">
+                  <Briefcase className="h-8 w-8 text-primary" />
                 </div>
                 <CardTitle className="text-3xl mb-3">Open Positions</CardTitle>
                 <CardDescription className="text-base">
-                  All current opportunities are published on our LinkedIn company page. 
+                  All current opportunities are published on our Notion page. 
                   Click below to view open positions and apply directly.
                 </CardDescription>
               </CardHeader>
@@ -130,16 +130,16 @@ const Careers = () => {
               <CardContent className="relative z-10 text-center pb-8">
                 <Button 
                   size="lg"
-                  className="bg-[#0A66C2] hover:bg-[#004182] text-white font-semibold px-8 py-6 text-lg"
+                  className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold px-8 py-6 text-lg"
                   onClick={() => {
-                    trackEvent('click', 'Careers', 'LinkedIn Jobs Button');
-                    window.open('https://www.linkedin.com/company/nexufed/jobs', '_blank');
+                    trackEvent('click', 'Careers', 'Notion Jobs Button');
+                    window.open('https://nexufed.notion.site/career', '_blank');
                   }}
                 >
-                  View Jobs on LinkedIn
+                  View Jobs on Notion
                 </Button>
                 <p className="text-sm text-muted-foreground mt-4">
-                  Don't see the right role? Connect with us on LinkedIn and stay updated on new opportunities.
+                  Don't see the right role? Connect with us and stay updated on new opportunities.
                 </p>
               </CardContent>
             </Card>
