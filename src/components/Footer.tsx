@@ -70,7 +70,7 @@ const Footer = () => {
                 <Linkedin className="w-6 h-6" />
               </a>
               <a
-                href="https://github.com/NexuFed-AI"
+                href="https://github.com/NexuFed"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-foreground hover:text-primary transition-colors"
@@ -90,7 +90,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-primary/20 pt-8 text-center text-sm text-muted-foreground">
-          <p>© 2025 NexuFed AI</p>
+          <p>© 2026 NexuFed AI</p>
         </div>
       </div>
     </footer>

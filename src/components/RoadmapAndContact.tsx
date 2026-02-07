@@ -128,7 +128,7 @@ const RoadmapAndContact = () => {
                     </a>
                   </Button>
                   <Button variant="outline" size="icon" asChild className="border-2 border-primary-foreground bg-transparent hover:bg-primary-foreground/10">
-                    <a href="https://github.com/NexuFed-AI" target="_blank" rel="noopener noreferrer" aria-label="GitHub" onClick={() => trackEvent('click', 'Contact', 'GitHub')}>
+                    <a href="https://github.com/NexuFed" target="_blank" rel="noopener noreferrer" aria-label="GitHub" onClick={() => trackEvent('click', 'Contact', 'GitHub')}>
                       <Github className="w-5 h-5 text-primary-foreground" />
                     </a>
                   </Button>
